@@ -34,7 +34,7 @@ class FizzBuzz {
 //        }
     }
 
-    private static void doFizzBuzz() {
+    public static void doFizzBuzz() {
         int i = 1;
         while (i <= 100){
             boolean isFizz = i % 3 == 0;
